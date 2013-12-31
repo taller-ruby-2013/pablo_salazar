@@ -1,8 +1,7 @@
-<ul class="nav nav-pills pull-right">
-  <% if user_signed_in? %>
-    <li><%= link_to "Salir", destroy_user_session_path, :method => :delete %></li>
+<p> <a class="muted"><%= link_to "Home", root_path %></a>  | 
+<% if user_signed_in? %>
+  <a class="muted"><%= link_to "Salir", destroy_user_session_path, :method => :delete %></a>
   <% else %>
-    <li><%= link_to "Ingresar", new_user_session_path %></li>
-    <li><%= link_to "Registrarse", new_user_registration_path %></li>
+    <a class="muted"><%= link_to "Ingresar", new_user_session_path %></a>  | 
+    <a class="muted"><%= link_to "Registrarse", new_user_registration_path %></a>
   <% end %>
-</ul>

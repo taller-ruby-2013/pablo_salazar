@@ -396,19 +396,14 @@ input.button {
 }
 .post-footer .date {
 	background: url('clock.gif') no-repeat left center; 
-	padding-left: 20px; margin: 0 0px 0 15px;	
+	padding-left: 20px; margin: 0 10px 0 5px;	
 }
 .post-footer .comments {
 	background: url('comment.gif') no-repeat left center; 
-	padding-left: 20px; margin: 0 0px 0 15px;	
+	padding-left: 20px; margin: 0 10px 0 5px;	
 }
 .post-footer .readmore {
 	background: url('page.gif') no-repeat left center;
-	padding-left: 20px; margin: 0 0px 0 15px;	
-}
-
-.post-footer .destroy {
-	background: url('delete.gif') no-repeat left center;
-	padding-left: 20px; margin: 0 0px 0 15px;	
+	padding-left: 20px; margin: 0 10px 0 5px;	
 }
 
