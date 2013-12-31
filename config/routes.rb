@@ -1,6 +1,6 @@
 Blog::Application.routes.draw do
   
-  get 'posts/search/:text' => 'posts#search', as: 'posts_search'
+  post 'posts/search/' => 'posts#search', as: 'posts_search'
 
   devise_for :users
   resources :posts do
